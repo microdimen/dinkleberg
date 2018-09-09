@@ -5,6 +5,7 @@ homepage = "https://github.com/rust-br/dinkleberg"
 min_version = "0.4.0"
 demo = "https://rust-br.github.io/blog/"
 disqus_code = ""
+analytics_code = ""
 
 [author]
 name = "Guilherme Diego"
