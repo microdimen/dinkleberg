@@ -60,6 +60,9 @@
     <div itemprop="articleBody" class="body">
       {{ page.content | safe }}
     </div>
+    {% if config.extra.disqus_code %}
+      {{ config.extra.disqus_code | safe }}
+    {% endif %}
 </article>
 
 {% endblock content %}
